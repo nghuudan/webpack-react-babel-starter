@@ -1,4 +1,4 @@
-import { APP_TITLE } from '../actions';
+import { APP_TITLE } from '../actions/demo-actions';
 
 const demo = (state = {}, action) => {
   switch (action.type) {
