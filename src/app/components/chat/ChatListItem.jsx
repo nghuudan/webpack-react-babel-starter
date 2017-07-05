@@ -7,7 +7,6 @@ const ChatListItem = props => {
 };
 
 ChatListItem.propTypes = {
-  id: PropTypes.string,
   name: PropTypes.string,
   createDate: PropTypes.date
 };
