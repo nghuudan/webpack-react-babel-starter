@@ -1,7 +1,7 @@
 {
   "name": "webpack-react-babel-starter",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Starter project for Webpack, React, Babel, and ES2015",
   "main": "index.js",
   "scripts": {
