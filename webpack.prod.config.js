@@ -1,11 +1,11 @@
-var path = require('path');
-var webpack = require('webpack');
-var CleanCssPlugin = require('less-plugin-clean-css');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var babelPluginTransformObjectRestSpread = require('babel-plugin-transform-object-rest-spread');
+const path = require('path');
+const webpack = require('webpack');
+const CleanCssPlugin = require('less-plugin-clean-css');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const babelPluginTransformObjectRestSpread = require('babel-plugin-transform-object-rest-spread');
 
 const extractLess = new ExtractTextPlugin({
   filename: '[name].[hash].styles.css'
